@@ -1,8 +1,8 @@
 /*POR DEFECTO SE TRABAJ EN MOVIL POR LO QUE NO ES NECESARIO UN @MEDIA*/
-
-.navbar-default img{
+.navbar-default:first-child img{
 		width: 45%;
 	}
+
 .navbar-default h1{
 	font-size: 1.7rem;
 	font-weight: 600;
@@ -30,6 +30,13 @@
 .btn-primary{
 	margin: 2rem auto;
 }
+.nav.navbar.nav-pills li{
+	width: 20%;
+}
+
+ul.nav.navbar.nav-pills img{
+		width: 80%;
+	}
 
 @media screen (max-width: 768px){
 
